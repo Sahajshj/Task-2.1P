@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        #submitBtn {
+            background-color: rgb(56, 145, 254);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Welcome Email Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SIGN UP FOR A DAILY INSIDER</h1>
+        <form id="emailForm" action="/" method="post">
+            <input type="email" id="emailInput" placeholder="Enter your email" name="email">
+            <button id="submitBtn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
